@@ -1,0 +1,16 @@
+Overview :
+
+Step 1 — Install Dependencies
+pip install torch vision transformers opencv-python scikit-learn pandas seaborn matplotlib
+
+Step 2 — Download Dataset
+Unzip the Kaggle dataset in a folder, e.g.:
+D:\python\BeiT\archive\chest_xray\test
+
+Step 3 — Run the Main Script
+Use the script file:
+python beit_pneumonia_pipeline_cleaned.py
+
+Step 4 — Predict and display images 
+Predict and display images with labels:
+predict_and_show_images(test_image_paths)
